@@ -6,7 +6,12 @@
 # set language
 
 ```javascript
-TAP18n.setLanguage("en");
+if (Meteor.isClient) {
+    let lang = localStorage.getItem("lang")
+    lang = lang || "az"
+    TAPi18n.setLanguage(lang)
+}
+
 ```
 
 # display translated text
