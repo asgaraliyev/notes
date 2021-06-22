@@ -28,7 +28,7 @@ TAP18n.setLanguage("en");
 _In Html_
 
 ```html
-<h3>{{_ "foundProduct" productCount=findProductCount}}</h3>
+<h3>{{_ "foundProduct" productCount=13}}</h3><!--13 mehsul tapildi -->
 ```
 
 _In javascript_
