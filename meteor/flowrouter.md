@@ -1,4 +1,4 @@
-#Tigger Entries
+# Tigger Entries
 
 ```javascript
 FlowRouter.triggers.enter([isLoggedIn], {
