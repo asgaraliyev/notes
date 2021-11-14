@@ -38,7 +38,8 @@ export default function App() {
     <Provider store={store}>
       <Router>
         <Switch>
-          <Route path={["/login","/login2"]}>
+//   exact is important here
+          <Route exact path={["/login","/login2"]}>
             <AuthLayout>
               <Switch>
                 <Route exact path={"/login"} component={Login} />
