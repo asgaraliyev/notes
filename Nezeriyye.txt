@@ -1,0 +1,7 @@
+1.Deyekki productun sekilleri var eger product ile sekilleri arasindaki elaqeni seklin idsini productun datasinda saxlamag yolunu secsen bu zaman gerek sekili silende hemin productun sekillerini tapasan
+bu o demekdirki productun icindeki sekillerin idsini tapib sonra silmelisen.Amma daha yaxsi yol var ve butun relationslarda bu cur edilmelidir mence
+basqa bir yol ise seklin icinde productun idsini saxlamagdi bele olan halda sadece productun id si ile istenilen qeder sekili rahatligla sile bilersen.fileCollection meta.productId=
+
+2.bezi settingsler varki hansiki admin terefinden dynamic olaraq deyisile biler meselen pul vahidleri ve onlarin deyerleri.Nezere alsaqki bizim e ticaret saytimiz var bu vahidler saytin 99 faiz hissesinde istifade edilecek.
+onda butun buna benzer settingsler ucun ayrica backende request gondermek yaxsi olar yoxsa butun bu settingslerin hamisini goturub bir global obyektin icinde saxlamag.Neticede bir boyuk obyektden heckese ziyan gelmez.Eksine her defesinde request gondermekden qatqat yaxsidi
+
