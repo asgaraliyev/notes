@@ -5,6 +5,8 @@ basqa bir yol ise seklin icinde productun idsini saxlamagdi bele olan halda sade
 2.bezi settingsler varki hansiki admin terefinden dynamic olaraq deyisile biler meselen pul vahidleri ve onlarin deyerleri.Nezere alsaqki bizim e ticaret saytimiz var bu vahidler saytin 99 faiz hissesinde istifade edilecek.
 onda butun buna benzer settingsler ucun ayrica backende request gondermek yaxsi olar yoxsa butun bu settingslerin hamisini goturub bir global obyektin icinde saxlamag.Neticede bir boyuk obyektden heckese ziyan gelmez.Eksine her defesinde request gondermekden qatqat yaxsidi
 
-
+3.#silindi
 
 4.Routing sistemide onemlidir.Mence routing sistemi cox hierarchy nen qurulmalidir. meselen deyekki menununuz var menudan sonra profile kliklemek olur.Profilden sonra orderlere sonra ordere.Mence bunu bele qurmaliyig./profile/orders/_id  ve ya /profile/orders?orderId=123
+
+5.mence reactda  ve ya her hansi component based ui library(frameworkda) her hansi form yaradarken o formu belke gelecekde her hansi bir yerde istifade etmeli ola bilersen dusuncesinide nezere almalisan o kodu yazanda .O form componentinin submitden basqa her seyini hazir edirsen bir dene submit buttonunu ve submit funksiyasini yuxardaki parent componentden atirsan belelikle eyni form componentini basqa yerdede problemsiz istifade ede bilersen .Meselen modallarda 
