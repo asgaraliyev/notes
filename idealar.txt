@@ -10,3 +10,5 @@ onda butun buna benzer settingsler ucun ayrica backende request gondermek yaxsi 
 4.Routing sistemide onemlidir.Mence routing sistemi cox hierarchy nen qurulmalidir. meselen deyekki menununuz var menudan sonra profile kliklemek olur.Profilden sonra orderlere sonra ordere.Mence bunu bele qurmaliyig./profile/orders/_id  ve ya /profile/orders?orderId=123
 
 5.mence reactda  ve ya her hansi component based ui library(frameworkda) her hansi form yaradarken o formu belke gelecekde her hansi bir yerde istifade etmeli ola bilersen dusuncesinide nezere almalisan o kodu yazanda .O form componentinin submitden basqa her seyini hazir edirsen bir dene submit buttonunu ve submit funksiyasini yuxardaki parent componentden atirsan belelikle eyni form componentini basqa yerdede problemsiz istifade ede bilersen .Meselen modallarda 
+
+6.mence her bir documenti yaradanda ona sort numberi verilmelidir
