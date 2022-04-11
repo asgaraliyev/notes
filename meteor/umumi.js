@@ -11,6 +11,7 @@ let user = Meteor.users.findOne({
 
 
 MONGO_URL=mongodb://localhost:3001/meteor meteor --port 4000
+meteor --port 3000 --exclude-archs web.browser.legacy,web.cordova
 image processing -8080
 partnoyor 5000
 web 4000
