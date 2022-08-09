@@ -8,7 +8,9 @@ let user = Meteor.users.findOne({
                 appPId: 1
             }
         })
-
+let a = '992';
+let query = '/^' + a + '.*/.test(this.barcode)';
+Products.findOne({$where: a});
 
 MONGO_URL=mongodb://localhost:3001/meteor meteor --port 4000
 meteor --port 3000 --exclude-archs web.browser.legacy,web.cordova
