@@ -13,4 +13,6 @@ onda butun buna benzer settingsler ucun ayrica backende request gondermek yaxsi 
 
 6.mence her bir documenti yaradanda ona sort numberi verilmelidir
 
+7.mence her field tipi schemasi olmalidir.Meselen necese kod bilmelidirki bu db den gelen data phone tipinde olmalidir ve uzunlugu ne az ne cox teyin olunmus qeder olmalidir ve her defe validation dan kecmelidir.Hemcinin valyutalarda
+
 
